@@ -1,0 +1,98 @@
+html,body {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "nunito-regular";
+    height: 10000px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul,
+h1,h2,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+d-none {
+    display: none;
+}
+
+/* MARGIN */
+.martop-1 {
+    margin-top: 30px;
+}
+
+.martop-2 {
+    margin-top: 125px;
+}
+
+.martop-5 {
+    margin-top: 210px;
+}
+
+/* PADDING */
+
+/* myCSS */
+.css1{
+    color: #C6C8C9;
+    font-size: 22px;
+    font-family: "montserrat-semi-bold";
+    letter-spacing: 0.3em;
+}
+
+.css2{
+    color: #41474C;
+    line-height: 150%;
+    font-size: 40px;
+    font-family: "montserrat-semi-bold";
+}
+
+
+
+
+/* FONTS */
+@font-face {
+    font-family: "nunito-light";
+    src: url(../fonts/NunitoSans/NunitoSans-Light.ttf);
+}
+
+@font-face {
+    font-family: "nunito-regular";
+    src: url(../fonts/NunitoSans/NunitoSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: "nunito-semi-bold";
+    src: url(../fonts/NunitoSans/NunitoSans-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: "montserrat-semi-bold";
+    src: url(../fonts/Montserrat/Montserrat-SemiBold.ttf)
+}
+
+@font-face {
+    font-family: "montserrat-bold";
+    src: url(../fonts/Montserrat/Montserrat-Bold.ttf)
+}
+
+@font-face {
+    font-family: "montserrat-extra-bold";
+    src: url(../fonts/Montserrat/Montserrat-ExtraBold.ttf)
+}

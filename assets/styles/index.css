@@ -1,0 +1,599 @@
+.bg {
+    background-image: url(../img/landing-page/jumbotron-bg.png);
+    padding-bottom: 130px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navigasi {
+    padding-top: 38px;
+}
+
+.navigasi .container {
+    position: relative;
+}
+
+.navigasi .content {
+    align-items: center;
+    justify-content: center;
+}
+
+.navigasi .nav-item {
+    margin: 0 13px;
+}
+
+.navigasi .nav-item:hover::after {
+    content: '';
+    display: block;
+    background: #fff;
+    margin: auto;
+    width: 5px;
+    height: 5px;
+    border-radius: 2000px;
+    margin-bottom: -7px;
+}
+
+.navigasi .content li a {
+    font-size: 16px;
+    color: white;
+}
+
+.navigasi .left-nav,
+.navigasi .right-nav {
+    position: absolute;
+}
+
+.navigasi .left-nav {
+    left: 0;
+}
+
+.navigasi .right-nav {
+    right: 0;
+}
+
+.navigasi .right-nav>li+li a {
+    border: solid 2px #fff;
+    padding: 13px 23px;
+    border-radius: 2000px;
+}
+
+/* NAVIGASI 2 */
+#logo-responsive {
+    display: none;
+}
+
+.bars-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+#bars {
+    display: none;
+}
+
+.navigasi-2 {
+    padding-top: 38px;
+}
+
+.navigasi-2 .container {
+    position: relative;
+}
+
+.navigasi-2 .navigasi-2-content-wrapper {
+    display: none;
+}
+
+.navigasi-2 .content ul {
+    display: flex;
+    flex-direction: column !important;
+    text-align: center;
+    margin: auto;
+}
+
+.navigasi-2 .content ul li {
+    margin: 8px 0;
+}
+
+.navigasi-2 .content ul li a {
+    color: white;   
+}
+
+/* JUMBOTRON */
+
+.jumbotroon .content .row h1 {
+    margin-top: 154px;
+    color: white;
+    line-height: 90px;
+    font-size: 70px;
+    font-family: "montserrat-extra-bold";
+}
+
+.jumbotroon .content .row p {
+    font-size: 19px;
+    color: #DDE0F6;
+    margin-top: 23px;
+    margin-bottom: 75px;
+}
+
+.jumbotroon .content .row a {
+    font-size: 20px;
+    font-family: "nunito-semi-bold";
+    background: rgba(255, 255, 255, 0.2);
+    padding: 18px 40px;
+    border-radius: 2000px;
+    color: #fff;
+}
+
+.jumbotroon .sponsor {
+    align-items: center;
+    margin-top: 229px;
+}
+
+/* ABOUT US */
+
+.about-us {
+    background-image: url(../img/landing-page/logo-bg.png);
+    background-repeat: no-repeat;
+}
+
+/* LIMIT */
+.limit{
+    background-image: url(../img/landing-page/jumbotron-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+    margin: 0 30px;
+    border-radius: 30px;
+}
+
+.limit .content{
+    align-items: center;
+}
+
+.limit .content .cta-wrapper{
+    text-align: right;
+}
+
+.limit .content h1{
+    font-size: 40px;
+    line-height: 155%;
+    color: white;
+    font-family: "montserrat-bold";
+}
+
+.limit .content a{
+    font-size: 20px;
+    font-family: "nunito-semi-bold";
+    background: rgba(255, 255, 255, 0.2);
+    padding: 18px 40px;
+    border-radius: 2000px;
+    color: #fff;
+}
+
+/* FITUR */
+
+.feature .feature-desc h1{
+    color: #41474C;
+    font-family: "montserrat-semi-bold";
+    font-size: 30px;
+    line-height: 145%;
+}
+
+.feature .content{
+    align-items: center;
+    justify-content: space-between;
+}
+
+.feature .feature-desc p{
+    margin: 17px 0 50px 0;
+    font-size: 21px;
+    line-height: 33px;
+    color: #8D9194;
+    font-family: "nunito-light";
+}
+
+.feature .feature-desc a{
+    font-size: 20px;
+    font-family: "nunito-semi-bold";
+    background: #FB3E7A;
+    padding: 18px 40px;
+    border-radius: 2000px;
+    color: #fff;
+}
+
+.feature .img-responsive, .feature .feature-desc-responsive{
+    display: none;
+}
+
+/* NEWS */
+
+.news .content{
+    display: flex;
+}
+.news .card-wrapper{
+    margin-bottom: 20px;
+    justify-content: center;
+    padding: 0;
+}
+.news .card{
+    border: solid 1px rgba(141, 145, 148, 0.288);
+    border-radius: 10px;
+}
+.news .card .card-body{
+    padding: 35px 38px;
+}
+
+.news .card .card-body h3{
+    font-size: 22px;
+    line-height: 33px;
+    font-family: "montserrat-semi-bold";
+    color: #41474C;
+}
+
+.news .card .card-body .by{
+    color: #8D9194;
+    font-size: 15px;
+}
+
+.news .card .card-body .by span{
+    color: #5A6DDA;
+    margin-bottom: 18px;
+}
+
+.news .card .card-body p{
+    color: #7A7E82;
+    font-size: 18px;
+    line-height: 33px;
+    margin-bottom: 15px;
+}
+
+.news .card .card-body a{
+    color: #FB3E7A;
+    font-size: 17px;
+    font-family: "montserrat-semi-bold";
+}
+
+/* PAGINATION */
+.pagination .row{
+    align-items: center;
+    justify-content: center;
+}
+
+.pagination .btn-prev{
+    box-shadow: 0px 15px 60px rgba(0, 0, 0, 0.13);
+    background: #fff;
+    height: 62px;
+    width: 62px;
+    border-radius: 2000px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagination .btn-prev svg{
+    position: absolute;
+}
+
+.pagination .btn-next{
+    box-shadow: 0px 15px 60px rgba(0, 0, 0, 0.13);
+    background: #FB3E7A;
+    height: 62px;
+    width: 62px;
+    border-radius: 2000px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagination p{
+    margin: 0 30px;
+    font-family: "nunito-semi-bold";
+}
+
+/* TESTIMONIAL */
+.testimonial{
+    padding: 210px 0 210px 0;
+    background-image: url(../img/landing-page/testimonial-bg.png);
+    margin: 0 30px;
+    border-radius: 30px;
+}
+
+.testimonial h3{
+    color: #8379D1;
+}
+
+.testimonial h1{
+    color: #FFFFFF;
+}
+
+.testimonial .card{
+    background: rgba(255, 255, 255, 0.05);
+    border: none;
+    padding: 50px 50px 50px 50px;
+    border-radius: 10px;
+}
+
+.testimonial .content .card-body>img{
+    margin-bottom: 35px;
+}
+
+.testimonial .content .card-body>img+p{
+    font-size: 22px;
+    line-height: 40px;
+    color: #E0DFF5;
+    margin-bottom: 44px;
+}
+
+.testimonial .content .profil{
+    align-items: center;
+    margin-left: 27px;
+}
+
+.testimonial .content .profil-wrapper{
+    align-items: center;
+}
+
+.testimonial .content .profil h2{
+    font-size: 25px;
+    font-family: "nunito-semi-bold";
+    color: white;
+}
+
+.testimonial .content .profil p{
+    font-size: 18px;
+    color: #D1D1F0;
+}
+
+
+
+
+
+
+/* MEDIA QUERY */
+@media screen and (max-width: 1199px) {
+    .jumbotroon .content .row h1 {
+        font-size: 62px;
+    }
+
+    .jumbotroon .content .row p {
+        font-size: 18px;
+    }
+
+    .about-us .myCard-wrapper .myCard p {
+        font-size: 20px;
+    }
+
+    .limit .content h1{
+        font-size: 36px;
+    }
+
+    .feature .feature-desc h1{
+        font-size: 27px;
+    }
+
+    .feature .feature-desc p{
+        font-size: 19px;
+    }
+
+    .feature .feature-desc a{
+        font-size: 17px;
+    }
+
+    .news .card .card-body h3{
+        font-size: 20px;
+    }
+    
+    .news .card .card-body .by{
+        color: #8D9194;
+        font-size: 15px;
+    }
+    
+    .news .card .card-body .by span{
+        color: #5A6DDA;
+        margin-bottom: 18px;
+    }
+    
+    .news .card .card-body p{
+        color: #7A7E82;
+        font-size: 16px;
+        line-height: 30px;
+        margin-bottom: 15px;
+    }
+    
+    .news .card .card-body a{
+        color: #FB3E7A;
+        font-size: 17px;
+        font-family: "montserrat-semi-bold";
+    }
+
+}
+
+@media screen and (max-width: 1076px) {
+    .limit .content h1{
+        font-size: 34px;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .limit{
+        margin: 0 15px;
+    }
+}
+
+@media screen and (max-width: 1005px) {
+    .limit .content h1{
+        font-size: 37px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .navigasi {
+        display: none;
+    }
+
+    #bars {
+        display: block;
+    }
+
+    #logo-responsive {
+        display: block;
+    }
+
+    .jumbotroon .sponsor .brand {
+        margin-bottom: 50px;
+    }
+
+    .about-us .myCard{
+        margin-top: 0;
+        margin-bottom: 35px;
+    }
+
+    .limit .content h1{
+        text-align: center;
+        margin-bottom: 60px;
+    }
+
+    .limit .content .cta-wrapper{
+        text-align: center;
+    }
+
+    .feature{
+        text-align: center;
+    }
+
+    .feature .feature-desc-lg, .feature .img-lg{
+        display: none;
+    }
+
+    .feature .img-responsive, .feature .feature-desc-responsive{
+        display: block;
+    }
+
+    .feature .content{
+        justify-content: center;
+    }
+
+    .feature .content img{
+        margin-bottom: 30px;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    .about-us .container {
+        text-align: center;
+    }
+
+    .news .card .card-body h3{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 537px) {
+    .jumbotroon .content .row h1 {
+        font-size: 52px;
+        line-height: 65px;
+    }
+
+    .limit .content h1{
+        font-size: 33px;;
+    }
+
+    .css1{
+        font-size: 18px;        
+    }
+    
+    .css2{
+        color: #41474C;
+        line-height: 150%;
+        font-size: 40px;
+        font-family: "montserrat-semi-bold";
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .jumbotroon .content .row h1 {
+        font-size: 33px;
+        line-height: 45px;
+    }
+
+    .jumbotroon .content .row p {
+        font-size: 15px;
+    }
+
+    .jumbotroon .content .row a {
+        font-size: 19px;
+        font-family: "nunito-semi-bold";
+        background: rgba(255, 255, 255, 0.2);
+        padding: 18px 40px;
+        border-radius: 2000px;
+        color: #fff;
+    }
+
+    .limit .content h1{
+        font-size: 20px;
+        line-height: 155%;
+    }
+    
+    .limit .content a{
+        font-size: 17px;
+        padding: 15px 40px;
+    }
+
+    .about-us .css1{
+        font-size: 13px;
+        letter-spacing: 0.3em;
+    }
+    
+    .about-us .css2 {
+        line-height: 150%;
+        font-size: 20px;
+    }
+
+    .feature .css1{
+        font-size: 13px;
+        letter-spacing: 0.3em;
+    }
+
+    .feature .css2{
+        line-height: 150%;
+        font-size: 20px;
+    }
+
+    .news .css1{
+        font-size: 13px;
+        letter-spacing: 0.3em;
+    }
+
+    .news .css2{
+        line-height: 150%;
+        font-size: 20px;
+    }
+
+    .feature .feature-desc h1{
+        font-size: 23px;
+        line-height: 145%;
+    }
+
+
+    .feature .feature-desc p{
+        margin: 17px 0 50px 0;
+        font-size: 17px;
+        line-height: 30px;
+    }
+
+    .feature .feature-desc a{
+        font-size: 18px;
+        font-family: "nunito-semi-bold";
+        background: #FB3E7A;
+        padding: 18px 40px;
+        border-radius: 2000px;
+    }
+
+    .limit{
+        padding: 80px 0;
+    }
+
+}
